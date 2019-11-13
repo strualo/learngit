@@ -20,6 +20,7 @@ const float scanPeriod = 0.1;
 const int skipFrameNum = 1;
 bool systemInited = false;
 
+// 483790000055555550348975093475890
 //时间戳信息
 double timeCornerPointsSharp = 0;
 double timeCornerPointsLessSharp = 0;
