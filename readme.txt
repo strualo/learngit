@@ -1,4 +1,4 @@
-git init　　//把这个目录变成Git可以管理的仓库
+ git init　　//把这个目录变成Git可以管理的仓库
 git add README.md　　 //文件添加到仓库　git add　. 一个点就把当前目录下所有未追踪的文件全部add了 
 git commit -m "first commit"
 git remote add origin git@github.com:strualo/a.git　 //关联远程仓库 地址需要修改
