@@ -15,3 +15,24 @@ git push -u origin master
 
 
 *********  ***
+
+git init    =====  建仓库， 初始化Git仓库
+
+git add 说明.txt  =====     把文件（这里指“说明.txt")纳入暂存区(还没有真正纳入版本控制，需要再一步确认)
+
+git status =======查看暂存区状态
+
+git commit  -m '...'  提交纳入仓库（要写原因所以要加 -m）====git commit  -m  "说明内容"
+
+注意：第一次提交需要先提交姓名和邮箱，否则会报错
+
+git log  ===== 查看提交日志
+
+git  checkout  - -  ====删除文件还原：
+
+git reset  -- hard     =====版本号码（至少写五位)       回到历史版本号版本
+
+git reflog    =======   回到删除的未来版本（过去将来时）
+————————————————
+版权声明：本文为CSDN博主「清平の乐」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/zzqhello2018/article/details/82354900
