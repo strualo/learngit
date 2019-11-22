@@ -10,6 +10,10 @@ git reflog              #找到相应的 HEAD；
 git reset --hard  XXXX  #通过 reset 命令恢复，其中最后的 XXXX 是 HEAD 的地址
 
 
+git pull origin master 
+git clone
+
+
 二、管理分支
 1、查看分支
 查看本地分支
