@@ -4,6 +4,9 @@ git commit -m "first commit"
 git remote add origin git@github.com:strualo/a.git　 //关联远程仓库 地址需要修改
 git push -u origin master //把本地库的所有内容推送到远程库上
 
+ push an existing repository from the command line
+git remote add origin git@github.com:strualo/a.git
+git push -u origin master
 
 git log
 git reflog              #找到相应的 HEAD；
